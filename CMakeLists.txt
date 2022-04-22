@@ -13,8 +13,8 @@ set(CMAKE_USE_WIN32_THREADS_INIT 0)
 set(CMAKE_USE_PTHREADS_INIT 1)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 
-set(MJC_path "/home/sid/library/mujoco/mujoco210/")
-set(source_path "/home/sid/source/Growing_Nets/Source/meta_hebbian_cpp/")
+set(MJC_path "< path to you mujoco directory >")
+set(source_path "<path to current project directory>")
 include_directories(${MJC_path}/include ${source_path})
 
 link_directories(${CMAKE_SOURCE_DIR}/home/sid/library/mujoco/mujoco210/bin/)
