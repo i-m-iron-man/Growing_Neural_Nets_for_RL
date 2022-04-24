@@ -4,7 +4,7 @@ The project is about exploring constructive or growing neural networks for topol
 A simple and intiutive implementation of NN is needed so that their topology can be augmented later while learning and thier complete functionality is exposed.<br/>
 Net.cpp & Net.h contain implementation of a NN, where one can create an NN as a object having member functions such as adding neurons, connecting neurons forward pass etc. It relies on:<br/>
         1. Class Neuron (defined in `Neuron.h` & `Neuron.cpp`) to represent a single neuron and it's functionality like activating it's input to output.<br/>
-        2. Class Bond (defined in Neuron.h & Neuron.cpp) to represent a single bond or connection, connecticting 2 neurons and it's functionality like scaling the input             signal by a scalar.<br/>
+        2. Class Bond (defined in `Bond.h` & `Bond.cpp`) to represent a single bond or connection, connecticting 2 neurons and it's functionality like scaling the input             signal by a scalar.<br/>
 ### status: Done
 
 ## Step 2) Implementation of an environment
