@@ -1,5 +1,5 @@
 # Growing_Neural_Nets_for_RL
-The project is about exploring constructive or growing neural networks for topology optimization in a reinforcement learning setting.
+The project is about exploring constructive or growing neural networks for topology optimization in a reinforcement learning task.
 ## Step 1) Implementation of Neural Networks (NN) in C++ 
 A simple and intiutive implementation of NN is needed so that their topology can be augmented later while learning and thier complete functionality is exposed.<br/>
 Net.cpp & Net.h contain implementation of a NN, where one can create an NN as a object having member functions such as adding neurons, connecting neurons forward pass etc. It relies on:<br/>
