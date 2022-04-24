@@ -21,5 +21,5 @@ Hebbian learning is needed here for two main reasons:<br/>
 A recent awesome method introduces in the work [Meta-Learning through Hebbian Plasticity in Random Networks](https://github.com/enajx/HebbianMetaLearning.git) is      used for this purpose. `Growing_Machines.cpp` & `Growing_Machines.h` contain a C++ implementation for the approach. Also, multi-threading is used to speed up the         training process.
 ### status: Tuning of hyper-parameters remaining
 
-## Step 4) Implementation of some emperical Growing Rules.
+## Step 4) Implementation of emperical Growing Rules.
 ### status: In Progress 
