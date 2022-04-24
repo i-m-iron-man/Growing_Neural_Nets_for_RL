@@ -18,7 +18,7 @@ The opensource and fast physics simulation library [MuJoCo](https://mujoco.org/)
 Hebbian learning is needed here for two main reasons:<br/>
 1. If the architecture of network changes mid-execution during a back-prop algorithm then the learning may be adversly-effected due to catastrophic forgetting.</br>
 2. In future, growth may occur such that it leads to formation of cyclic connections making the NN a general RNN. Again, Since the toplology of the RNN will keep            augmenting standard RNN-backprop algos like n-BPPT, RTRL may not be effective.</br>
-A recent awesome method introduces in the work [Meta-Learning through Hebbian Plasticity in Random Networks](https://github.com/enajx/HebbianMetaLearning.git) is      used for this purpose. `Growing_Machines.cpp` & `Growing_Machines.h` contain a C++ implementation for the approach. Also, multi-threading is used to speed up the         training process.
+A recent awesome method introduces in the work [Meta-Learning through Hebbian Plasticity in Random Networks](https://github.com/enajx/HebbianMetaLearning.git) is      used for this purpose. `Growing_Machines.cpp` & `Growing_Machines.h` contain a C++ implementation for the approach. Also, multi-threading is used to speed up the         training process. Class Net, Class Neuron and Class Bond are updated accordingly.
 ### status: Tuning of hyper-parameters remaining
 
 ## Step 4) Implementation of emperical Growing Rules.
