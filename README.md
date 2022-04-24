@@ -23,3 +23,7 @@ A recent awesome method introduces in the work [Meta-Learning through Hebbian Pl
 
 ## Step 4) Implementation of emperical Growing Rules.
 ### status: In Progress 
+
+## Inspiration
+1. [Weight Agnostic Neural Networks](https://arxiv.org/abs/1906.04358)
+2. [A Constructive Neural Network for Evolving a Machine Controller in Real-Time](https://link.springer.com/chapter/10.1007/978-3-642-04512-7_12) 
